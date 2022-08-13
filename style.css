@@ -1,0 +1,108 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 0;
+        outline: none;
+    }
+    
+    body {
+        background-color: rgb(136 -34 255);
+    }
+    
+    .admin_box {
+        width: 35%;
+        margin: 100px auto 100px;
+        text-align: center;
+        background-color: rgb(251 251 251);
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 2px 1px 19px 10px rgb(65 0 181);
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    form {
+        margin: 20px 0px;
+    }
+    
+    .admin_box h1 {
+        font-size: 28px;
+        margin: 35px 0px 6px 0px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+    }
+    
+    input {
+        display: block;
+        width: 82%;
+        margin: 6% auto;
+        padding: 18px;
+        font-family: 'Nunito', sans-serif;
+        border-radius: 26px;
+        box-shadow: rgb(65 0 181) 0px 3px 7px -3px;
+    }
+    
+    .nav {
+        display: inline-block;
+        float: left;
+        margin: auto;
+        font-family: 'Nunito', sans-serif;
+        font-size: 15px;
+        color: gray;
+    }
+    
+    input[type="checkbox"] {
+        outline: none;
+        background-color: #fff;
+        width: auto;
+        float: left;
+        margin: 0% 5% 5% 20%;
+        box-shadow: 0px 0px 0px 0px;
+    }
+    
+    .a {
+        float: left;
+        margin: auto;
+        color: rgb(122, 50, 255);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    a {
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+    }
+    /* Form Containe  */
+    
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    /* input button  */
+    
+    input[type="submit"] {
+        display: block;
+        width: 72%;
+        margin: 12% auto 12%;
+        padding: 18px;
+        border-radius: 26px;
+        box-shadow: rgb(65 0 181) 0px 3px 7px -3px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        background-image: linear-gradient(to right, rgb(136 -34 255), rgb(65 0 181));
+        color: #fff;
+        transition: background-image 5s;
+    }
+    
+    input[type="submit"]:hover {
+        cursor: pointer;
+        background-image: linear-gradient(to right, rgb(65 0 181), rgb(136 -34 255));
+        box-shadow: rgb(65 0 181) 1000px 30px 7px -301px;
+    }
+    
+    p {
+        font-size: 15px;
+        font-family: 'Nunito', sans-serif;
+        color: gray;
+    }
